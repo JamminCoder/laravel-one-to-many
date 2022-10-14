@@ -37,7 +37,7 @@
             
             <h2>New Car</h2>
             <div>
-                <label for="owner">Owner</label><br/>
+                <label for="owner">Owner:</label><br/>
                 <input name="owner" type="text" />
             </div>
 
@@ -57,7 +57,7 @@
         <h1>Results</h1>
         
         <div>
-            <h3>Persons</h3>
+            <h3>Persons:</h3>
             @if (isset($persons))
                 @foreach ($persons as $person)
                     <div>
@@ -69,7 +69,7 @@
         </div>
         
         <div>
-            <h3>Cars</h3>
+            <h3>Cars:</h3>
             @if (isset($cars))
                 @foreach ($cars as $car)
                     <div>
